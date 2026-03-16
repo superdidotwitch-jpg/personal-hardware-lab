@@ -34,7 +34,7 @@ PowerColor Radeon RX 470
 Storage  
 
 256GB NVMe SSD (Blu-ray brand)  
-512GB SATA SSD (Solambulus brand)
+512GB SATA SSD (Sonambulus brand)
 
 Power Supply  
 
