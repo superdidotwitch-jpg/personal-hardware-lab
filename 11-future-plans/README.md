@@ -75,6 +75,17 @@ The lab is evolving into a structured environment with clearly defined roles:
 
 ---
 
+## 🧪 Current Phase
+
+Design & Planning
+
+The lab is currently in the design phase, focusing on:
+- Defining system roles
+- Planning hardware upgrades
+- Structuring network architecture
+
+---
+
 ## 📈 Long-Term Vision
 
 - Fully separated infrastructure (network / server / user systems)
