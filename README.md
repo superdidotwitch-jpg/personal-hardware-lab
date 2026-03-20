@@ -18,7 +18,6 @@ I am a computer technician with practical experience in:
 This repository serves as a structured documentation of my technical work and learning process.
 
 ---
-
 ## 🖥️ Lab Overview
 
 My lab consists of multiple systems with dedicated roles:
@@ -27,17 +26,37 @@ My lab consists of multiple systems with dedicated roles:
 - Ryzen 7 5800X  
 - RTX 5060 Ti  
 - 32GB DDR4  
+- Used for gaming and daily computing  
 
-### 🧠 Secondary PC (Server / Lab System)
+---
+
+### 🧑‍💻 Secondary PC (Guest PC / Workstation)
 - Ryzen 7 2700X  
 - 16GB DDR4  
 - RX 470  
-- Used for server workloads, testing, and local services  
+- Used as a secondary system for:
+  - Guest usage  
+  - Workstation tasks  
+  - Testing environments  
 
-### 🥧 Raspberry Pi
-- Dedicated to network services  
-- Runs Pi-hole (DNS filtering)  
-- Always-on, low-power infrastructure  
+---
+
+### 🧠 Mini PC (Planned Server / NAS)
+- Dedicated low-power server (planned)
+- Will handle:
+  - File storage (NAS)
+  - Docker containers
+  - Media services
+  - Game servers
+
+---
+
+### 🥧 Raspberry Pi (Planned Network Services)
+- Dedicated network device (planned)
+- Will run:
+  - Pi-hole (DNS filtering)
+  - Network services
+  - VPN (future)
 
 ---
 
@@ -71,10 +90,10 @@ Each folder represents a specific project or learning phase:
 
 ## 🚀 Current Focus
 
-- Expanding homelab services using Docker  
-- Improving network structure and monitoring  
-- Optimizing hardware usage across systems  
-- Building a structured and professional lab environment  
+- Preparing transition to dedicated server (Mini PC)
+- Maintaining secondary PC as guest/workstation system
+- Planning Raspberry Pi network integration
+- Improving overall infrastructure design
 
 ---
 
