@@ -74,7 +74,8 @@ Each folder represents a specific project or learning phase:
 - `08-mini-homelab-project`  
 - `09-hardware-lab-overview`  
 - `10-project-evolution`  
-- `11-future-plans`  
+- `11-future-plans`
+- `12-mini-pc-server-nas`
 
 ---
 
