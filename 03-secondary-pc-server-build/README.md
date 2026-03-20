@@ -1,4 +1,4 @@
-# Secondary PC Server Build
+# 🎮 Secondary PC (Guest Workstation)
 
 This project documents the build of a custom secondary PC used as both a homelab server and a secondary gaming system for friends.
 
