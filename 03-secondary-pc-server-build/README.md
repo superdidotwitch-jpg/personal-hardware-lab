@@ -50,23 +50,24 @@ Micro-ATX case
 
 ---
 
-## System Roles
+## 🎯 System Roles
 
-### Home Server
+### 1. Guest PC
+- Used by friends for gaming
+- Local multiplayer / LAN sessions
 
-The system is used for:
+### 2. Workstation
+- Testing software and operating systems
+- Backup productivity machine
+- General-purpose use
 
-- Linux server experimentation
-- Local services
-- File storage
-- Development environment
+---
 
-Possible workloads include:
+## 📌 Notes
 
-- Docker containers
-- Media server
-- Local game servers
-- Backup storage
+This system is no longer intended to act as a primary server.
+
+Server workloads will be migrated to a dedicated Mini PC.
 
 ---
 
