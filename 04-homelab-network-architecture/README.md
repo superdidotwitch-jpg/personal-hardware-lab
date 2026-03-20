@@ -21,18 +21,19 @@ These components form the base network infrastructure.
 
 ---
 
-## Network Topology
+## 🗺️ Planned Network Architecture
 
 Internet
    │
-Modem
+ISP Modem
    │
 Router (TP-Link Archer MR500)
    │
-Unmanaged Switch
-   ├── Raspberry Pi (Pi-hole DNS)
-   ├── Mini PC (Server)
-   └── Gaming PC
+Switch
+   ├── 🥧 Raspberry Pi (DNS / Pi-hole)
+   ├── 🧠 Mini PC (Server / NAS)
+   ├── 🎮 Main PC
+   └── 🧑‍💻 Secondary PC (Guest Workstation)
 
 ---
 
@@ -54,30 +55,44 @@ The architecture allows additional systems to be added easily.
 
 ---
 
-## Role of Each Device
+## 🧠 Device Roles
 
-Router  
-Handles internet connectivity, NAT, and wireless networking.
+### 🥧 Raspberry Pi
+- DNS filtering (Pi-hole)
+- Network services
+- Optional VPN access
 
-Switch  
-Provides simple wired connectivity between systems.
+### 🧠 Mini PC
+- Docker host
+- Media server
+- File storage (NAS)
+- Game servers
 
-Raspberry Pi  
-Runs network infrastructure services such as DNS filtering.
+### 🎮 Secondary PC
+- Guest gaming system
+- Workstation use
+- Testing environment
 
-Mini PC Server  
-Runs heavier workloads including containers, game servers, and media services.
-
-Gaming PC  
-Used for personal computing and gaming workloads.
+### 🎮 Main PC
+- Personal use
+- Gaming
 
 ---
 
 ## Future Improvements
 
-Possible upgrades include:
+## 🛒 Hardware Acquisition Plan
 
-- Managed switch with VLAN support
-- Network monitoring
-- Reverse proxy for external services
-- Dedicated NAS storage
+### Priority 1
+- Raspberry Pi 4 (4GB or 8GB)
+- Power supply
+- MicroSD card
+
+### Priority 2
+- Mini PC (Intel i5 or similar)
+- RAM upgrade (if needed)
+- SSD storage
+
+### Priority 3
+- UPS (optional)
+- Network upgrades (future)
