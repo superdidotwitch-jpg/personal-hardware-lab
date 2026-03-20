@@ -64,3 +64,11 @@ The goal is to ensure safe, reliable, and scalable power distribution for all de
 Power infrastructure is a critical but often overlooked part of homelab design.
 
 A stable and safe electrical setup ensures long-term reliability of all systems.
+
+---
+
+## 🔧 Future Project: Custom-Length Cables
+
+- Create custom Ethernet cables (RJ45)
+- Optimize cable lengths for clean routing
+- Reduce cable clutter in workspace
