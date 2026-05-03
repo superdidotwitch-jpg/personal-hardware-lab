@@ -1,1 +1,0 @@
-Image storage folder for screenshots and diagrams.
